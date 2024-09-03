@@ -1,0 +1,26 @@
+# Entornos de desarrollo y dependencias de Node.js
+.env
+node_modules/
+
+# Archivos de objetos compilados, librerías estáticas y dinámicas (Shared Objects)
+*.o
+*.a
+*.so
+
+# Carpetas
+_obj/
+_test/
+vendor/
+
+# Archivos binarios compilados
+*.exe
+*.out
+
+# Archivos específicos de macOS
+.DS_Store
+
+# Archivos específicos de Go
+# Binarios compilados para paquetes y comandos
+/bin/
+# Salida de la herramienta go_coverage, específicamente cuando se usa con LiteIDE
+*.out
